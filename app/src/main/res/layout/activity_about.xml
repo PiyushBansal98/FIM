@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about"
+    android:orientation="vertical"
+    android:background="#44feffff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:background="#89d1f710"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Our aim is to help farmers by collaborating with various NGOs who are willing to work for the benefit of the farmers."
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CONTACT US"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:background="#89d1f710"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Ph no : +91-9650864580 , +91-9990068879 "
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="10dp"
+        android:text="+91-8368610744 , +91-9012412091"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="E-MAIL US AT "
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:fontFamily="serif-monospace"
+        android:background="#89d1f710"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:text="500053339@stu.upes.ac.in"
+        />
+
+
+
+</LinearLayout>

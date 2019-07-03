@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FIM</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <array name="ngo">
+        <item>Nandi Foundation</item>
+        <item>Green Piece</item>
+        <item>Gramin Vikas Trust</item>
+        <item>Srija</item>
+    </array>
+
+
+    <string name="farm">Farming</string>
+    <string name="farmdet">FARMER DETAILS</string>
+    <string name="name">Name:</string>
+    <string name="insureID">Insurance ID :</string>
+    <string name="insureamt">Total amount of Insurance :</string>
+    <string name="add">Address :</string>
+    <string name="transdet">TRANSACTION HISTORY</string>
+    <string name="nxt">Next Installment :</string>
+    <string name="due">Due Date :</string>
+    <string name="loc">FARMER LOCATION</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="paused">Paused…</string>
+    <string name="playing">Playing…</string>
+
+
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/frm">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#9acac5c5"
+            android:text="Farmer Insurance Management"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+
+        <android.support.v4.view.ViewPager
+            android:layout_marginTop="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/viewme"></android.support.v4.view.ViewPager>
+
+
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/bt"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Logins"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="#a0f9e727"
+           android:layout_gravity="center"
+
+            />
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F.I.M is a farmer welfare application updating farmers about their insurance instalments and getting them in touch with their nearest NGOs who can help them in the time of crisis."
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:background="#c8f1efef"/>
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For Further Queries"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            />
+
+            <Button
+                android:id="@+id/quer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="click here"
+                android:layout_gravity="center"/>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

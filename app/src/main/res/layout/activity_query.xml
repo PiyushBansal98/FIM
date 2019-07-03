@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".query"
+    android:orientation="vertical"
+    android:background="@drawable/quer">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#80dc2121">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Query"
+        android:textStyle="bold"
+        android:id="@+id/txt123"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="30dp"
+        android:textColor="#000"
+        android:textAlignment="center"/>
+
+
+
+    <EditText
+        android:id="@+id/qu1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_marginStart="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/qu2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Query"
+            android:layout_marginStart="30dp"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="submit"
+        android:id="@+id/qb1"
+        />
+    </LinearLayout>
+
+
+</LinearLayout>

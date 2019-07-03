@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">खेती</string>
+    <string name="farm">खेती</string>
+    <string name="farmdet">किसान विवरण</string>
+    <string name="name">नाम:</string>
+    <string name="insureID">बीमा आईडी:</string>
+    <string name="insureamt">बीमा की कुल राशि:</string>
+    <string name="add">पता:</string>
+    <string name="transdet">लेनदेन का इतिहास:</string>
+    <string name="nxt">अगली किस्त:</string>
+    <string name="due">नियत तारीख:</string>
+    <string name="loc">किसान का स्थान</string>
+    </resources>
